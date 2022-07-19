@@ -3,7 +3,7 @@ import requests
 
 def get_url():
     cities = ('Череповец', 'Лондон', 'Шереметьево')
-    lang = "lang=ru"
+    lang = {'lang': 'ru'}
     for city in cities:
         url_template = f'https://wttr.in/{city}'
         response = requests.get(url_template, params=lang)
