@@ -14,6 +14,6 @@ pip install -r requirements.txt
 ```
 python weather_request.py
 ```
-# Цель проекта
 
+# Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков dvmn.org. 
