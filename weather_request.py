@@ -3,7 +3,12 @@ import requests
 
 def get_current_weather():
     cities = ('Череповец', 'Лондон', 'Шереметьево')
-    request_parameters = {'lang': 'ru'}
+    request_parameters = {'lang': 'ru',
+                          'n': '',
+                          'q': '',
+                          'M': '',
+                          'T': ''
+                          }
     for city in cities:
         url_template = f'https://wttr.in/{city}'
         response = requests.get(url_template, params=request_parameters)
