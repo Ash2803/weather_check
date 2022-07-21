@@ -17,7 +17,7 @@ def get_current_weather():
 
 
 def main():
-    print(get_current_weather())
+    get_current_weather()
 
 
 if __name__ == '__main__':
